@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #95438c;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+input {
+    user-select: none;
+    font-size: 40px;
+    background-color: beige;
+    max-width: 90%;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    caret-color: transparent;
+}
+
+@media(max-width:370px) {
+    .btn {
+        padding: 20px;
+    }
+}
